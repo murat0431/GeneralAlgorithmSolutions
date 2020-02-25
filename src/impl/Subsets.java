@@ -20,8 +20,7 @@ public class Subsets {
                 List<Integer> newList = new ArrayList<Integer>(list);
                 newList.add(nums[i]);
                 result.add(newList);
-                subsets(nums, index + 1, newList, result);
-                index++;
+                subsets(nums, i + 1, newList, result);
             }
         }
 }
