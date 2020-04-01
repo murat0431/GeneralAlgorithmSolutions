@@ -10,6 +10,7 @@ public class LexSmallestStringTest implements Test{
         String result = ls.solution(test);
         Test t = new LexSmallestStringTest();
         System.out.println(t.test(expected, result) + " " + expected + " " + result);
+
     }
 
     @Override
